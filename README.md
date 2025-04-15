@@ -48,7 +48,7 @@ pip install tkinter sv-ttk pillow
 ![Screenshot](./screenshot.png)
 
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot1.png)
 
 ---
 
