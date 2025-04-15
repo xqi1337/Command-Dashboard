@@ -161,15 +161,15 @@ class CommandDashboard:
 
         # Füge Linux-Kategorien zum Menüframe hinzu
         categories = [
-            ("File Operations\n(Dateiverwaltung)", self.show_file_operations_commands),
-            ("System Info\n(Systeminformationen)", self.show_system_info_commands),
-            ("Process Control\n(Prozesssteuerung)", self.show_process_control_commands),
-            ("Networking\n(Netzwerkbefehle)", self.show_networking_commands),
-            ("Permissions\n(Berechtigungen)", self.show_permissions_commands),
-            ("Package Management\n(Paketverwaltung)", self.show_package_management_commands),
-            ("Text Processing\n(Textverarbeitung)", self.show_text_processing_commands),
-            ("Disk Usage\n(Festplattennutzung)", self.show_disk_usage_commands),
-            ("SSH & Remote\n(Remote-Zugriff)", self.show_ssh_remote_commands)
+            ("Dateiverwaltung", self.show_file_operations_commands),
+            ("Systeminformationen", self.show_system_info_commands),
+            ("Prozesssteuerung", self.show_process_control_commands),
+            ("Netzwerkbefehle", self.show_networking_commands),
+            ("Berechtigungen", self.show_permissions_commands),
+            ("Paketverwaltung", self.show_package_management_commands),
+            ("Textverarbeitung", self.show_text_processing_commands),
+            ("Festplattennutzung", self.show_disk_usage_commands),
+            ("Remote-Zugriff", self.show_ssh_remote_commands)
         ]
 
         for text, command in categories:
