@@ -1,8 +1,6 @@
 # Command Dashboard 🚀
 
-![Python](https://img.shields.io/badge/python-3.x-blue.svg)  
-![PyQt6](https://img.shields.io/badge/GUI-PyQt6-purple.svg)  
-![License](https://img.shields.io/badge/license-MIT-orange.svg)
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)  ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-purple.svg)  ![License](https://img.shields.io/badge/license-MIT-orange.svg)
 
 Ein modernes, dunkles GUI-Dashboard mit stilvollem Design für schnellen Zugriff auf Linux- und SQL-Befehle sowie Datentypen-Referenzen – entwickelt mit **PyQt6** im Dracula-Style.
 
