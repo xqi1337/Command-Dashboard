@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-COMMAND_DATA= {
+COMMAND_DATA = {
     'linux': {
         'Dateiverwaltung': {
             'Datei kopieren': {
@@ -159,36 +159,6 @@ COMMAND_DATA= {
             'DEB-Paket installieren': {
                 'command': 'dpkg -i [package.deb]',
                 'explanation': 'Installiert eine .deb-Datei'
-            }
-        },
-        'Textverarbeitung': {
-            'Datei kopieren': {
-                'command': 'cp [source] [destination]',
-                'explanation': 'Kopiert datei1 zu datei2'
-            },
-            'Datei verschieben': {
-                'command': 'mv [source] [directory]',
-                'explanation': 'Verschiebt datei1 in verzeichnis/'
-            },
-            'Datei löschen': {
-                'command': 'rm [file]',
-                'explanation': 'Löscht eine Datei'
-            },
-            'Verzeichnis erstellen': {
-                'command': 'mkdir [directory]',
-                'explanation': 'Erstellt ein neues Verzeichnis'
-            },
-            'Datei erstellen': {
-                'command': 'touch [file]',
-                'explanation': 'Erstellt eine leere Datei oder aktualisiert Zeitstempel'
-            },
-            'Dateien suchen': {
-                'command': "find / -name '*.txt'",
-                'explanation': 'Sucht nach .txt-Dateien im gesamten System'
-            },
-            'Dateien auflisten': {
-                'command': 'ls -l',
-                'explanation': 'Detaillierte Liste mit Berechtigungen, Besitzer, Größe etc.'
             }
         },
         'Festplattennutzung': {
@@ -428,7 +398,7 @@ COMMAND_DATA= {
             },
             'FLOAT': {
                 'command': 'FLOAT',
-                'explanation': 'Gleitkommazahlen (±3.402823466E+38 bis ±1.175494351E-38)'
+                'explanation': 'Gleitkommazahlen (±v1.1.402823466E+38 bis ±1.175494351E-38)'
             },
             'DOUBLE': {
                 'command': 'DOUBLE',
@@ -466,7 +436,7 @@ COMMAND_DATA= {
             },
             'YEAR': {
                 'command': 'YEAR',
-                'explanation': 'Speichert ein Jahr (4-stellig)'
+                'explanation': 'Speichert ein Jahr (v1-stellig)'
             },
             'INTERVAL': {
                 'command': 'INTERVAL',
